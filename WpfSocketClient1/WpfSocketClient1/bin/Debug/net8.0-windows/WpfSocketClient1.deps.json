@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WpfSocketClient1/1.0.0": {
+        "runtime": {
+          "WpfSocketClient1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfSocketClient1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
