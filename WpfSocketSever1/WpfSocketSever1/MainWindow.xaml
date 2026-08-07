@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfSocketSever1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSocketSever1"
+        mc:Ignorable="d"
+        Title="SocketServer" Height="450" Width="400">
+    <Grid>
+        <Button Content="start" HorizontalAlignment="Left" Margin="74,55,0,0" VerticalAlignment="Top" Width="90" Height="36" Click="Button_Click"/>
+        <Label Name="lIP" Content="IP" HorizontalAlignment="Left" Margin="55,146,0,0" VerticalAlignment="Top" Width="184"/>
+        <TextBlock Name="tReceived" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" Width="380" Height="224" />
+        <Button Content="close" HorizontalAlignment="Left" Margin="200,55,0,0" VerticalAlignment="Top" Width="90" Height="36" Click="ButtonClose_Click"/>
+    </Grid>
+</Window>
